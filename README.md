@@ -1,7 +1,39 @@
 Here is my solution of some DSA questions using sorting approaches, which is the part of my DSA learning.
 Linkes for the question-
 #links
-- .[Merge soted array](https://leetcode.com/problems/merge-sorted-array/)
+- [Merge soted array](https://leetcode.com/problems/merge-sorted-array/)
+- 
+1.Merge two sorted array
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+      int left = 0; 
+      int right = 0; 
+      int index  = 0;
+      int[] ans = new int[m+n];
+      while(left<m&&right<n){
+          if(nums1[left]<=nums2[right]){
+         ans[index] = nums1[left];
+        index++;
+        left++;
+          }
+          else{
+              ans[index] = nums2[right];
+              index++;
+              right++;
+          }
+      }
+      while(left<m){
+          ans[index++] = nums1[left++];
+      }
+      while(right<n){
+          ans[index++]= nums2[right++];
+      }
+      for(int i=0; i<ans.length; i++){
+          nums1[i] = ans[i];
+      }
+    }
+}
+
 
 https://leetcode.com/problems/majority-element/
 https://leetcode.com/problems/missing-number/
