@@ -12,6 +12,7 @@ Linkes for the question-
 ## Solutions
 1.Merge two sorted array
 class Solution {
+
     public void merge(int[] nums1, int m, int[] nums2, int n) {
       int left = 0; 
       int right = 0; 
@@ -43,6 +44,7 @@ class Solution {
 
 2.Majiority elements
 class Solution {
+
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
@@ -51,7 +53,9 @@ class Solution {
 }
 
 3.Missing number
+
 class Solution {
+
     public int missingNumber(int[] nums) {
        return sort(nums);
     }
@@ -83,6 +87,7 @@ class Solution {
 
 4 349. Intersection of Two Arrays
 class Solution {
+
     public int[] intersection(int[] nums1, int[] nums2) {
             HashSet<Integer> set1 = new HashSet<>();
             HashSet<Integer> set2 = new HashSet<>();
@@ -111,7 +116,9 @@ class Solution {
 /*star*/
 350. Intersection of Two Arrays II
 
-class Solution {
+class Solution 
+{
+
     public int[] intersect(int[] nums1, int[] nums2) {
         List<Integer> arr = new ArrayList<>();
         for(int i=0; i< nums1.length; i++){
@@ -123,7 +130,7 @@ class Solution {
                 }
             }
         }
-
+        
         int[] arr1 = new int[arr.size()];
 
         for(int i=0; i<arr1.length; i++){
