@@ -1,6 +1,7 @@
 <Here is my solution of some DSA questions using sorting approaches, which is the part of my DSA learning.>
 
-## Linkes for the question-
+# Linkes for the question-
+
 # links
 - [Merge soted array](https://leetcode.com/problems/merge-sorted-array/)
 - [Mjiority-element](https://leetcode.com/problems/majority-element/)
@@ -11,7 +12,7 @@
 
 
 ## Solutions
-1.Merge two sorted array
+# 1.Merge two sorted array
 class Solution {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -43,7 +44,7 @@ class Solution {
     }
 }
 
-2.Majiority elements
+ # 2.Majiority elements
 class Solution {
 
     public int majorityElement(int[] nums) {
@@ -53,7 +54,7 @@ class Solution {
     }
 }
 
-3.Missing number
+# 3.Missing number
 
 class Solution {
 
@@ -86,7 +87,7 @@ class Solution {
     }
 }
 
-4 349. Intersection of Two Arrays
+# 349. Intersection of Two Arrays
 class Solution {
 
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -115,7 +116,7 @@ class Solution {
 
 
 
-350. Intersection of Two Arrays II
+# 350. Intersection of Two Arrays II
 
 class Solution 
 {
