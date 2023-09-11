@@ -2,8 +2,6 @@ Here is my solution of some DSA questions using sorting approaches, which is the
 Linkes for the question-
 #links
 - [Merge soted array](https://leetcode.com/problems/merge-sorted-array/)
-- 
-1.Merge two sorted array
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
       int left = 0; 
@@ -34,19 +32,14 @@ class Solution {
     }
 }
 
+- [Mjiority-element](https://leetcode.com/problems/majority-element/)
 
-https://leetcode.com/problems/majority-element/
-https://leetcode.com/problems/missing-number/
-https://leetcode.com/problems/intersection-of-two-arrays/
-https://leetcode.com/problems/intersection-of-two-arrays-ii/
+- [missing-number](https://leetcode.com/problems/missing-number/)
+- [intersection-of-two-arrays](https://leetcode.com/problems/majority-element/)
+- [intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
-# Videos
-- [Bubble Sort](https://youtu.be/F5MZyqRp_IM)
-- [Selection Sort](https://youtu.be/Nd4SCCIHFWk)
-- [Insertion Sort](https://youtu.be/By_5-RRqVeE)
-- [Cycle Sort](https://www.youtube.com/watch?v=JfinxytTYFQ&list=RDCMUCBGOUQHNNtNGcGzVq5rIXjw&start_radio=1&rv=JfinxytTYFQ&t=2)
-- [Merge Sort](https://youtu.be/iKGAgWdgoRk)
-- [Quick Sort](https://youtu.be/Z8svOqamag8)
+
+
 
 1.Merge two sorted array
 class Solution {
