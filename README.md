@@ -6,6 +6,14 @@ https://leetcode.com/problems/missing-number/
 https://leetcode.com/problems/intersection-of-two-arrays/
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
+# Videos
+- [Bubble Sort](https://youtu.be/F5MZyqRp_IM)
+- [Selection Sort](https://youtu.be/Nd4SCCIHFWk)
+- [Insertion Sort](https://youtu.be/By_5-RRqVeE)
+- [Cycle Sort](https://www.youtube.com/watch?v=JfinxytTYFQ&list=RDCMUCBGOUQHNNtNGcGzVq5rIXjw&start_radio=1&rv=JfinxytTYFQ&t=2)
+- [Merge Sort](https://youtu.be/iKGAgWdgoRk)
+- [Quick Sort](https://youtu.be/Z8svOqamag8)
+
 1.Merge two sorted array
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
