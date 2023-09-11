@@ -1,6 +1,6 @@
 Here is my solution of some DSA questions using sorting approaches, which is the part of my DSA learning.
 Linkes for the question-
-#links
+# links
 - [Merge soted array](https://leetcode.com/problems/merge-sorted-array/)
 - [Mjiority-element](https://leetcode.com/problems/majority-element/)
 - [missing-number](https://leetcode.com/problems/missing-number/)
@@ -9,7 +9,7 @@ Linkes for the question-
 
 
 
-
+## Solutions
 1.Merge two sorted array
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -107,4 +107,28 @@ class Solution {
     }
 }
 
-5.
+
+/*star*/
+350. Intersection of Two Arrays II
+
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+        List<Integer> arr = new ArrayList<>();
+        for(int i=0; i< nums1.length; i++){
+            for(int j=0; j<nums2.length; j++){
+                if(nums1[i] == nums2[j]){
+                    arr.add(nums1[i]);
+                    nums2[j] = -1;
+                    break;
+                }
+            }
+        }
+
+        int[] arr1 = new int[arr.size()];
+
+        for(int i=0; i<arr1.length; i++){
+            arr1[i] = arr.get(i);
+        }
+        return arr1;
+    }
+}
