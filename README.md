@@ -44,7 +44,7 @@ class Solution {
     }
 }
 
- # 2.Majiority elements
+ # 2.Majority elements
 class Solution {
 
     public int majorityElement(int[] nums) {
